@@ -1,4 +1,5 @@
 FinanceTracker
+
 FinanceTracker is a web application designed to help users track their personal finances, manage budgets, and analyze spending habits. With FinanceTracker, users can easily record their expenses, set monthly budgets for different categories, and gain insights into their financial activities.
 
 Features
@@ -7,15 +8,6 @@ Budget Management: Users can set monthly budgets for various spending categories
 Expense Summary: The application provides users with a summary of their expenses, including total spending and breakdown by category for the current month.
 User Authentication: FinanceTracker includes a user authentication system to ensure that only registered users can access their financial data.
 User Settings: Users can update their profile information, including passwords and email addresses, through the settings page.
-
-Installation
-Clone the Repository: Clone the FinanceTracker repository to your local machine using the following command:
-bash
-Copy code
-git clone <repository-url>
-Database Setup: Import the provided SQL file (database.sql) into your MySQL database to create the necessary tables for the application.
-Configuration: Update the database connection settings in the db_connect.php file to match your MySQL database credentials.
-Web Server: Deploy FinanceTracker on a web server with PHP support. You can use Apache, Nginx, or any other web server of your choice.
 
 Usage
 Registration/Login: Users need to register an account or log in with their existing credentials to access FinanceTracker.
